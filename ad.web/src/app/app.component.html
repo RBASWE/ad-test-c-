@@ -1,0 +1,14 @@
+<div class="grid">
+  <div class="col-3">
+    <div class="flex flex-column">
+      <label for="username">Username: </label>
+      <input #username pInputText name="username" type="text" />
+      <label for="password">Password </label>
+      <input #password pInputText name="password" type="password" />
+
+      <p-button (onClick)="onSubmit()" styleClass="mt-5" type="submit"
+        >Submit</p-button
+      >
+    </div>
+  </div>
+</div>

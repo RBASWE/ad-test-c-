@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "Os9JUEmmj2azV8zSjAlgWTo4HXPN3UxNdX0w68oUofQ=",
+  "Source": "ad.api",
+  "BasePath": "_content/ad.api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  ad-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "10000:80"
+      - "88:88"  #Kerberos auth
+      - "464:464"  #Kerberos pw change
+      - "53:53"  #Dns from Domain controller
+    #networks:
+    #  - my_network
+    environment:
+       - TZ=Europe/Vienna
+    #network_mode: "host"
+    #dns:
+      #- 8.8.8.8    
+
+#networks:
+#  my_network:
+#    driver: bridge
